@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 MAINTAINER Alex Lee (alexleethinker@gmail.com) 
 # Fullstack Data Science Studio
-# docker run -d -p 8888:8888 -v [host-src]:/opt/notebook ~/jupyter-notebook
+# docker run -d -p 8888:8888 -v [host-src]:/opt/notebook jupyter-notebook
 
 ENV LANGUAGE=C.UTF-8 LC_ALL=C.UTF-8 LANG=C.UTF-8
 
